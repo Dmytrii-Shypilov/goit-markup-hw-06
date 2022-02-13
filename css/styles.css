@@ -854,6 +854,10 @@ img {
     border-color: var(--active-color);
 }
 
+.hidden-box:focus~.checkbox {
+    border-color: var(--active-color);
+}
+
 .agreement-text a {
     color: var(--active-color);
 }
